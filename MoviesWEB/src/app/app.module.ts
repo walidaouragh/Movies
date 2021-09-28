@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 import { MoviesListComponent } from './movies/movies-list/movies-list.component';
 import { GenericListComponent } from './utilities/generic-list/generic-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {ReactiveFormsModule, FormsModule} from '@angular/forms'
-import {MarkdownModule} from 'ngx-markdown';
-import {LeafletModule} from '@asymmetrik/ngx-leaflet'
-import "leaflet/dist/images/marker-shadow.png";
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { MarkdownModule } from 'ngx-markdown';
+import { LeafletModule } from '@asymmetrik/ngx-leaflet';
+import 'leaflet/dist/images/marker-shadow.png';
 
-import {MaterialModule} from './material/material.module';
+import { MaterialModule } from './material/material.module';
 import { MenuComponent } from './menu/menu.component';
 import { RatingComponent } from './utilities/rating/rating.component';
 import { HomeComponent } from './home/home.component';
@@ -38,46 +38,46 @@ import { MultipleSelectorComponent } from './utilities/multiple-selector/multipl
 import { ActorsAutocompleteComponent } from './actors/actors-autocomplete/actors-autocomplete.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MoviesListComponent,
-    GenericListComponent,
-    MenuComponent,
-    RatingComponent,
-    HomeComponent,
-    IndexGenresComponent,
-    CreateGenreComponent,
-    IndexActorsComponent,
-    CreateActorComponent,
-    IndexMovieTheaterComponent,
-    CreateMovieTheaterComponent,
-    CreateMovieComponent,
-    EditActorComponent,
-    EditGenreComponent,
-    EditMovieTheaterComponent,
-    EditMovieComponent,
-    MovieFilterComponent,
-    FormGenreComponent,
-    FormActorComponent,
-    InputImgComponent,
-    InputMarkdownComponent,
-    MovieTheaterFormComponent,
-    MapComponent,
-    FormMovieComponent,
-    MultipleSelectorComponent,
-    ActorsAutocompleteComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MaterialModule,
-    ReactiveFormsModule,
-    FormsModule,
-    LeafletModule,
-    MarkdownModule.forRoot()
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		MoviesListComponent,
+		GenericListComponent,
+		MenuComponent,
+		RatingComponent,
+		HomeComponent,
+		IndexGenresComponent,
+		CreateGenreComponent,
+		IndexActorsComponent,
+		CreateActorComponent,
+		IndexMovieTheaterComponent,
+		CreateMovieTheaterComponent,
+		CreateMovieComponent,
+		EditActorComponent,
+		EditGenreComponent,
+		EditMovieTheaterComponent,
+		EditMovieComponent,
+		MovieFilterComponent,
+		FormGenreComponent,
+		FormActorComponent,
+		InputImgComponent,
+		InputMarkdownComponent,
+		MovieTheaterFormComponent,
+		MapComponent,
+		FormMovieComponent,
+		MultipleSelectorComponent,
+		ActorsAutocompleteComponent,
+	],
+	imports: [
+		BrowserModule,
+		AppRoutingModule,
+		BrowserAnimationsModule,
+		MaterialModule,
+		ReactiveFormsModule,
+		FormsModule,
+		LeafletModule,
+		MarkdownModule.forRoot(),
+	],
+	providers: [],
+	bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

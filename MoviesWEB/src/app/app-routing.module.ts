@@ -15,25 +15,24 @@ import { EditMovieComponent } from './movies/edit-movie/edit-movie.component';
 import { MovieFilterComponent } from './movies/movie-filter/movie-filter.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'genres', component: IndexGenresComponent},
-  {path: 'genres/create', component: CreateGenreComponent},
-  {path: 'genres/edit/:id', component: EditGenreComponent},
-  {path: 'actors', component: IndexActorsComponent},
-  {path: 'actors/create', component: CreateActorComponent},
-  {path: 'actors/edit/:id', component: EditActorComponent},
-  {path: 'movietheaters', component: IndexMovieTheaterComponent},
-  {path: 'movietheaters/create', component: CreateMovieTheaterComponent},
-  {path: 'movietheaters/edit/:id', component: EditMovieTheaterComponent},
-  {path: 'movies/create', component: CreateMovieComponent},
-  {path: 'movies/edit/:id', component: EditMovieComponent},
-  {path: 'movies/filter', component: MovieFilterComponent},
-  {path: '**', redirectTo: ''}
-
+	{ path: '', component: HomeComponent },
+	{ path: 'genres', component: IndexGenresComponent },
+	{ path: 'genres/create', component: CreateGenreComponent },
+	{ path: 'genres/edit/:id', component: EditGenreComponent },
+	{ path: 'actors', component: IndexActorsComponent },
+	{ path: 'actors/create', component: CreateActorComponent },
+	{ path: 'actors/edit/:id', component: EditActorComponent },
+	{ path: 'movietheaters', component: IndexMovieTheaterComponent },
+	{ path: 'movietheaters/create', component: CreateMovieTheaterComponent },
+	{ path: 'movietheaters/edit/:id', component: EditMovieTheaterComponent },
+	{ path: 'movies/create', component: CreateMovieComponent },
+	{ path: 'movies/edit/:id', component: EditMovieComponent },
+	{ path: 'movies/filter', component: MovieFilterComponent },
+	{ path: '**', redirectTo: '' },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+	imports: [RouterModule.forRoot(routes)],
+	exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

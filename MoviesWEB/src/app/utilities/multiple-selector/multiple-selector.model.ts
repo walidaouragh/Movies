@@ -1,4 +1,4 @@
-export interface multipleSelectorModel{
-    key: number;
-    value: string;
+export interface multipleSelectorModel {
+	key: number;
+	value: string;
 }
